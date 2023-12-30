@@ -1,0 +1,97 @@
+.App {
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 20%;
+  height: 50px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  font-size: large;
+  font-weight: bolder;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  color: lightgray;
+}
+
+button:disabled:hover {
+  cursor: auto;
+}
+
+.name-input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 15%;
+  padding-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px, solid;
+  font-size: 20px;
+}
+
+.option_a_input {
+  display: none;
+}
+
+.checkmark {
+  margin-left: 5px;
+  position: relative;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+
+.note_temp {
+  /* color: brown; */
+  font-size: 14px;
+  font-style: italic;
+}
+
+.score_result {
+  font-size: x-large;
+  color: darkgreen;
+  font-weight: 800;
+}
+
+.uncorrect-symbol {
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* .option_a_input:checked + .checkmark::after {
+  content: '';
+  position:absolute;
+  top: -5px;
+  left: 1px;
+  width: 8px;
+  height: 15px;
+  border: solid green;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+} */
+
+
